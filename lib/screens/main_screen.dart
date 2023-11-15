@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:notes_app/components/home_screen/gridview%20_tile.dart';
+import 'package:notes_app/components/home_screen/gridview_tile.dart';
 import 'package:notes_app/screens/add_note_screen.dart';
 import 'package:notes_app/screens/auth_screen.dart';
 
@@ -47,7 +47,7 @@ class _MainScreenState extends State<MainScreen> {
           padding: EdgeInsets.zero,
           children: [
             DrawerHeader(
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 color: Color.fromARGB(255, 25, 110, 180),
               ),
               child: Column(
